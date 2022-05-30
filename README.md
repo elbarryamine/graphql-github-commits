@@ -6,18 +6,18 @@ the app uses a fake login
 ## Guide to run the app
 
 run both this commands
-1 - yarn
-2 - yarn tsc
-3 -yarn start
+#1 - yarn
+#2 - yarn tsc
+#3 -yarn start
 
 ---
 
 ## Guide to use the app
 
-1 - go to /playground
-2 -run generateApiKey mutation with this data (user: 'user'; password: 'password')
-3 -copy token
-4 -pass header like this
+#1 - go to /playground
+#2 -run generateApiKey mutation with this data (user: 'user'; password: 'password')
+#3 -copy token
+#4 -pass header like this
 {
 "token" : "Bearer <your_token>"
 }
